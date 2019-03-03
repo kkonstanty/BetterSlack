@@ -1,11 +1,13 @@
 
 
+import com.sun.corba.se.spi.activation.Server;
+
 import java.io.IOException;
 
 public class ServerDemo {
     public static void main(String[] args) throws IOException {
-        Server server1 = new Server();
-
-        server1.startServer(51008);
+//        Server server1 = new Server();
+//
+//        server1.startServer(51008);
     }
 }
